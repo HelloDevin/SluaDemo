@@ -1,0 +1,14 @@
+GameObject = UnityEngine.GameObject
+
+local M = {}
+function M:Start()
+    print("Start")
+end
+
+function M:OnDestroy()
+    print("OnDestroy")
+end
+
+return M
+
+
